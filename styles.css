@@ -1,0 +1,134 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #f8f3f2;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+
+.navbar-nav a{
+  font-size: 1.2rem;
+  padding: 10px 30px;
+  margin: 0px 20px;
+  color: white;
+}
+.nav-link:hover{
+  color: #f5472a;
+}
+.active{
+  color: #f5472a!important;
+}
+
+.home-container h1{
+  font-size: 6rem;
+  font-family: 'Dancing Script', cursive;
+  letter-spacing: 2px;
+}
+.carousel .carousel-item {
+    height: 90vh;
+  }
+.text-primary{
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold!important;
+}
+  /* #fa6741 */
+  
+  .carousel-item img {
+      position: absolute;
+      object-fit: cover;
+      background-position: center center;
+      filter: brightness(40%);
+      top: 0;
+      left: 0;
+      min-height: 90vh;
+  }
+  .carousel-caption{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .des-1{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) , url('img/1.webp') no-repeat center center;
+    background-size: cover;
+  }
+  .des-2{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) , url('img/home.webp') no-repeat center center;
+    background-size: cover;
+  }
+  .des-3{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(33, 14, 14, 0.6)) , url('img/Destination.webp') no-repeat center center;
+    background-size: cover;
+  }
+  .des-4{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) , url('img/2.webp') no-repeat center center;
+    background-size: cover;
+  }
+  .card{
+    border: none;
+  }
+.des{
+  transition: 0.4s ease;
+}
+.des:hover{
+  background-size: 150%;
+}
+.deal-btn{
+  display: none;
+  width: 100%;
+  
+}
+.btn-block {
+  display: block;
+  width: 100%;
+}
+.des:hover .deal-btn{
+  display: block;
+}
+.btn-primary{
+  background-color: transparent;
+  border-color: #f5472a;
+  color: #f5472a;
+}
+.btn-primary:hover{
+  background-color: #f5472a;
+  color: white;
+  border-color: #f5472a;
+}
+.card h5{
+  font-weight: 700;
+}
+.card:hover{
+  color: #f5472a;
+}
+.btn-square {
+  width: 36px;
+  height: 36px;
+}
+.btn-outline-primary{
+  color: #f5472a;
+  border-color: #f5472a;
+  background-color: transparent;
+}
+.btn-outline-primary:hover{
+  background-color: #f5472a;
+  color: white;
+  border-color: #f5472a;
+}
+.text-primary{
+  color: #f5472a!important;
+}
+
+@media (min-width: 768px) {
+  .booking {
+    position: relative;
+    margin-top: -60px !important;
+    z-index: 1;
+  }
+  .about{
+    min-height: 500px;
+  }
+}
+
