@@ -18,6 +18,20 @@ else {
   $('.navbar').removeClass('bg-dark')
 }
 
+
+
+var delay = 2000;
+setTimeout(function() {
+  $(document).ready(function () {
+
+    $('#modalTour').modal('show');
+  
+  });
+  setTimeout(function() {
+    $('.close').css({'display':'block'});
+   }, delay);
+}, delay);
+
 $(".place-carousel").owlCarousel({
   autoplay: true,
   smartSpeed: 1500,

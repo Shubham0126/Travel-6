@@ -161,7 +161,12 @@ iframe{
   width: 40px;
   background: #f5472a;
 }
-
+.modal-body i{
+  color: #f5472a;
+}
+.close{
+  display: none;
+}
 
 
 @media (min-width: 768px) {
